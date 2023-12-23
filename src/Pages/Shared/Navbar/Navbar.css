@@ -1,0 +1,22 @@
+.dropdown{
+    display: none;
+    position: absolute;
+    padding-left:0 ;
+    background-color: antiquewhite;
+    margin-top: 22px;
+
+}
+ul li:hover .dropdown{
+    display: block;
+
+}
+li{
+    padding: 5px;
+    width: 100px;
+    margin-left: 7px;
+
+}
+
+li:hover{
+    background-color: blue;
+}
