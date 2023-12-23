@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import './Navbar.css'
 import { MdOutlineAccountCircle } from 'react-icons/md';
 
@@ -49,25 +50,13 @@ const Navbar = () => {
                 </div>
                 <div className="navbar-end">
 
-                    <button className="mr-16" onClick={() => document.getElementById('my_modal_3').showModal()}>
-                        <div className='flex'>
-                            <MdOutlineAccountCircle className='my-auto w-[40px] h-[40px]'></MdOutlineAccountCircle>
-                            <div className='ml-1'>
-                                <h1 className='mr-14'>Account </h1>
-                                <h1>Register or Login</h1>
-                            </div>
+                    <Link to='/login'> <div className='flex mr-16'>
+                        <MdOutlineAccountCircle className='my-auto w-[40px] h-[40px]'></MdOutlineAccountCircle>
+                        <div className='ml-1'>
+                            <h1 className='mr-14'>Account </h1>
+                            <h1>Register or Login</h1>
                         </div>
-                    </button>
-                    <dialog id="my_modal_3" className="modal">
-                        <div className="modal-box">
-                            <form method="dialog">
-                                {/* if there is a button in form, it will close the modal */}
-                                <button className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">✕</button>
-                            </form>
-                            <h3 className="font-bold text-lg">Hello!</h3>
-                            <p className="py-4">Press ESC key or click on ✕ button to close</p>
-                        </div>
-                    </dialog>
+                    </div></Link>
                 </div>
             </div>
 
