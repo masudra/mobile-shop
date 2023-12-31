@@ -22,6 +22,8 @@ const Navbar = () => {
                     <li>Samsung</li>
                     <li>OnePlus</li>
                     <li>Vivo</li>
+                    <li>Oppo</li>
+                    <li>Mi</li>
 
                 </ul>
             </li>
