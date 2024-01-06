@@ -24,6 +24,12 @@ const Navbar = () => {
                     <li>Vivo</li>
                     <li>Oppo</li>
                     <li>Mi</li>
+                    <li>i Phone</li>
+                    <li>Samsung</li>
+                    <li>OnePlus</li>
+                    <li>Vivo</li>
+                    <li>Oppo</li>
+                    <li>Mi</li>
                     <li>Poco</li>
 
                 </ul>
